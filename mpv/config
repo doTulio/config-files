@@ -1,0 +1,30 @@
+
+# VIDEO
+vo=opengl-hq
+framedrop=yes
+monitoraspect=16:9
+vf=pp=autolevels:fullyrange
+
+# AUDIO
+ao=alsa
+alang=eng
+volume=20
+#af=hrtf=0
+#channels=8
+softvol=yes
+softvol-max=600
+#af=hrtf=0,drc=1
+
+# SUBS
+ass
+slang=eng
+autosub-match=all
+
+# MISC
+no-lirc
+msgcolor
+no-joystick
+no-mouse-movements
+cursor-autohide=always
+#input=conf="/home/en/.mpv/input"
+

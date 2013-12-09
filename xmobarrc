@@ -1,0 +1,18 @@
+Config {
+    font = "xft:cure:pixelsize=10:antialias=false",
+    bgColor = "black",
+    fgColor = "grey",
+    position = Bottom,
+    lowerOnStart = False,
+    commands = [ Run Weather "SBCG" ["-t","<tempC>C <rh>% (<hour>)"] 10000,
+                 Run Network "enp3s0" ["-t","<rx>|<tx>","-L","0","-H","2000","--normal","#429942","--high","red"] 10,
+                 Run MultiCpu ["-t","<autototal>"] 10,
+                 Run CpuFreq ["-t","<cpu0>"] 50,
+                 Run Memory ["-t","<usedratio>% (<total>M)"] 10,
+                 Run Date "%F %R:%S UTC" "date" 10,
+                 Run StdinReader
+                ],
+    sepChar = "%",
+    alignSep = "}{",
+    template = "%StdinReader% }{ %multicpu% | %cpufreq% | %memory% | %enp3s0% | %SBCG% | <fc=#429942>%date%</fc>"
+}

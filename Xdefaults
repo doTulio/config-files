@@ -1,0 +1,61 @@
+! urxvt ----------------------------------------------------------------------
+
+!URxvt.depth: 32
+!URxvt.background: [95]#000000
+!urxvt*faceName: xft:Terminus:style=Regular:pixelsize=14:antialias=false
+urxvt*font: xft:Terminus:style=Regular:pixelsize=12:antialias=false
+!jurxvt*font: -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-15
+!*font: -*-terminus-medium-r-normal--12-*-*-*-*-*-*-*
+!URxvt.transparent: true
+! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
+!URxvt.shading: 20
+URxvt.scrollBar: false
+URxvt.perl-ext-common:  default,tabbed
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg:    3
+URxvt.tabbed.tab-bg:    0
+
+!
+! invisibone by baskerville
+!
+! vim: set ft=xdefaults:
+
+URxvt.background: #232323
+URxvt.foreground: #FFFFFF
+
+URxvt.colorBD:    #CFCFCF
+URxvt.colorUL:    #A0A0A0
+URxvt.colorIT:    #686868
+
+!BLK
+URxvt.color0:     #303030
+URxvt.color8:     #686868
+
+!RED
+URxvt.color9:     #FFA7DA
+URxvt.color1:     #D370A3
+
+!GRN
+URxvt.color10:    #A3D572
+URxvt.color2:     #6D9E3F
+
+!BLU
+URxvt.color12:    #98CBFE
+URxvt.color4:     #6095C5
+
+!YEL
+URxvt.color11:    #EFBD8B
+URxvt.color3:     #B58858
+
+!CYN
+URxvt.color14:    #75DAA9
+URxvt.color6:     #3BA275
+
+!MAG
+URxvt.color13:    #E5B0FF
+URxvt.color5:     #AC7BDE
+
+!WHT
+URxvt.color7:     #CFCFCF
+URxvt.color15:    #FFFFFF
