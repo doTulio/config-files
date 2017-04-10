@@ -1,30 +1,30 @@
 
 # VIDEO
-vo=opengl-hq
-framedrop=yes
+profile=opengl-hq
+#framedrop=vo
 monitoraspect=16:9
-vf=pp=autolevels:fullyrange
+hwdec=vdpau
+vo=vdpau
 
 # AUDIO
-ao=alsa
+ao=openal
+#ao=pulse
 alang=eng
-volume=20
-#af=hrtf=0
-#channels=8
-softvol=yes
-softvol-max=600
-#af=hrtf=0,drc=1
+volume=50
+audio-channels=6
+volume-max=600
 
 # SUBS
-ass
+#ass
 slang=eng
-autosub-match=all
+sub-auto=all
+#osd-font-size=100
+#sub-text-font-size=80
+
 
 # MISC
-no-lirc
-msgcolor
-no-joystick
-no-mouse-movements
+msg-color
+no-input-cursor
 cursor-autohide=always
 #input=conf="/home/en/.mpv/input"
 
